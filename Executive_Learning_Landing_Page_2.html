@@ -1,68 +1,80 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-<!-- jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<!-- Popper JS -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-<!-- Latest compiled JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="moodle.css">
     <title></title>
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<script src="https://kit.fontawesome.com/9f359e736a.js" crossorigin="anonymous"></script>
+    <meta charset="utf-8">
+    <title>2 col</title>
+
+    <style media="screen">
+    .responsive {
+width: 100%;
+height: auto;
+}
+.card {
+/* Add shadows to create the "card" effect */
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+border-radius: 5px; /* 5px rounded corners */
+transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+#contentList .card:hover {
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+}
+
+/* Add some padding inside the card container */
+.container {
+padding: 2px 16px;
+}
+
+/*padding to even out the cards*/
+
+/* .card .card-header {
+padding: .75rem 1.25rem;
+margin-bottom: 0;
+background-color: rgba(0,0,0,.03);
+border-bottom: 1px solid rgba(0,0,0,.125);
+} */
+
+/* Add rounded corners to the top left and the top right corner of the image */
+img {
+border-radius: 5px 5px 0 0;
+}
+</style>
   </head>
   <body>
 <!-- Business Line Page Portion -->
 {mlang en}
-<img src="https://github.com/antoinebedward/ilms_emails/blob/master/img/banner_EL_en%20(1).jpg?raw=true" alt="" class="responsive">
-<br>
-<br>
+<img src="https://github.com/antoinebedward/ilms_emails/blob/master/img/banner_EL_en%20(1).jpg?raw=true" alt="" class="responsive d-none d-md-block mb-1">
 <div class="jumbotron jumbotron-fluid">
     <h1 class="display-5" style="margin-left:40px;">Executive Learning</h1>
     <p class="lead" style="margin-left:40px; margin-right:40px">
       The Canada School of Public Service offers programs, courses, events and personalized support exclusively tailored to executives in the public service, whether they are new to their role or seasoned professionals. These learning opportunities focus on practice and draw on the knowledge of experienced leaders and experts in the areas of leadership, innovation and decision making. Our aim is to help foster innovation, encourage collaboration and deliver tangible results for Canadians.
     </p>
 </div>
-<div class="container">
-  <div class="card-deck">
-      <div class="card">
-        <img class="card-img-top" src="https://github.com/antoinebedward/ilms_emails/blob/master/img/Executalk%20image-eng.jpg?raw=true" alt="">
-          <h5 class="card-header text-center bg-primary text-white">EXecuTALK: Be the Leader Everyone Wants to Work For</h5>
-            <a class="card-block stretched-link text-decoration-none" href="https://learn-apprendre.ca/course/view.php?id=24">
-              <div class="card-body text-dark">
-                <h5 class="card-title">Video</h5>
-                <p class="card-text"><strong>Duration:</strong> 32 mins</p>
-                <p class="card-text"><strong>Description:</strong> Retired assistant deputy minister Pablo Sobrino discusses how leaders can create meaningful and effective employee engagement in the workplace to increase innovation, productivity and performance. This EXecuTALK will help leaders be more aware of their own behaviours when managing and mobilizing employees in a time of crisis—a good way to ensure motivation and open channels while deploying services and personnel to initiatives that protect Canadians.</p>
-              </div>
-            </a>
-      </div>
-      <div class="card">
-          <img class="card-img-top" src="https://github.com/antoinebedward/ilms_emails/blob/master/img/Executalk%20image-eng.jpg?raw=true" alt="">
-          <h5 class="card-header text-center bg-primary text-white">EXecuTALK: Public Service Renewal: An Act of Intelligent Risk Taking</h5>
-            <a class="card-block stretched-link text-decoration-none" href="https://learn-apprendre.ca/course/view.php?id=25">
-              <div class="card-body text-dark">
+<section id="landingCards">
+  <div class="container justify-content-center">
+    <div class="card col-md-6 cold-lg-4">
+      <img class="card-img-top d-none d-md-block" src="https://github.com/antoinebedward/ilms_emails/blob/master/img/Executalk%20image-eng.jpg?raw=true" alt="">
+        <h5 class="card-header text-center bg-primary text-white">EXecuTALK: Be the Leader Everyone Wants to Work For</h5>
+          <a class="card-block stretched-link text-decoration-none" href="">
+            <div class="card-body text-dark">
               <h5 class="card-title">Video</h5>
-              <p class="card-text"><strong>Duration:</strong> 36 mins</p>
-              <p class="card-text"><strong>Description:</strong> It is important to take intelligent risks and make sound decisions in a time of crisis. In this EXecuTALK, Patrick Borbey, President of the Public Service Commission, talks about how his organization is embracing intelligent risk taking and innovation in staffing to support public service renewal. You will gain specific insight into how to take risks when a limited amount of information is provided in a national and global context.</p>
-              </div>
-            </a>
-      </div>
-      <div class="card">
-          <img class="card-img-top" src="https://github.com/antoinebedward/ilms_emails/blob/master/BestAdviceExecSeries_EN.jpg?raw=true" alt="">
-          <h5 class="card-header text-center bg-primary text-white">Best Advice Executive Series: Daniel Watson on Leadership Behaviours</h5>
-            <a class="card-block stretched-link text-decoration-none" href="https://learn-apprendre.ca/course/view.php?id=38">
-              <div class="card-body text-dark">
-              <h5 class="card-title">Video</h5>
-              <p class="card-text"><strong>Duration:</strong> 5 mins</p>
-              <p class="card-text"><strong>Description:</strong> Deputy Minister Daniel Watson shares his foundational principles for dealing with situations that are beyond one’s control.</p>
-              </div>
-            </a>
-      </div>
+              <p class="card-text"><strong>Duration:</strong>32 mins</p>
+              <p class="card-text d-none d-md-block"><strong>Description:</strong> Retired assistant deputy minister Pablo Sobrino discusses how leaders can create meaningful and effective employee engagement in the workplace to increase innovation, productivity and performance. This EXecuTALK will help leaders be more aware of their own behaviours when managing and mobilizing employees in a time of crisis—a good way to ensure motivation and open channels while deploying services and personnel to initiatives that protect Canadians.</p>
+            </div>
+          </a>
+    </div>
+    <div class="card col-md-6 cold-lg-4">
+    </div>
+    <div class="card col-md-6 cold-lg-4">
+    </div>
   </div>
-</div>
-<br>
+</section>
 <div class="jumbotron">
     <h1 class="display-5">Refresher: Responsible Use of Public Funds</h1>
     <hr class="my-4">

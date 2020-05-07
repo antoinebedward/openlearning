@@ -1,24 +1,48 @@
 .responsive {
-  width: 100%;
-  height: auto;
+width: 100%;
+height: auto;
 }
 .card {
-  /* Add shadows to create the "card" effect */
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  border-radius: 5px; /* 5px rounded corners */
-  transition: 0.3s;
+/* Add shadows to create the "card" effect */
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+border-radius: 5px; /* 5px rounded corners */
+transition: 0.3s;
 }
 
 /* On mouse-over, add a deeper shadow */
 .card-deck .card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
 }
+
+/* On mouse-over, add a deeper shadow */
+#homeContenttype .card:hover {
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+}
+
+/* On mouse-over, add a deeper shadow */
+#exectuiveLearning .card:hover {
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+}
+
+#homeBussinesLines .card-header {
+  background-color: #4E5B73;
+}
+
 /* Add some padding inside the card container */
 .container {
-  padding: 2px 16px;
+padding: 2px 16px;
+}
+
+/*padding to even out the cards*/
+
+.card .card-header {
+padding: .75rem 1.25rem;
+margin-bottom: 0;
+background-color: rgba(0,0,0,.03);
+border-bottom: 1px solid rgba(0,0,0,.125);
 }
 
 /* Add rounded corners to the top left and the top right corner of the image */
 img {
-  border-radius: 5px 5px 0 0;
+border-radius: 5px 5px 0 0;
 }

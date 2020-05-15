@@ -1,3 +1,10 @@
+/* brand colors
+
+primary: #3F2A56
+secondary: #4E5B73
+third: #DA797A */
+
+
 .responsive {
 width: 100%;
 height: auto;
@@ -45,4 +52,94 @@ border-bottom: 1px solid rgba(0,0,0,.125);
 /* Add rounded corners to the top left and the top right corner of the image */
 img {
 border-radius: 5px 5px 0 0;
+}
+
+/* Course Cards on Landing Pages */
+
+.courseCards .card-deck {
+  justify-content: center;
+}
+.courseCards .card {
+  margin-bottom: 1em;
+  min-width: 18rem;
+  max-width: 22rem;
+  border-color: #4E5B73;
+  border-width: 0.075rem;
+}
+
+.courseCards .btn {
+  border-radius: 8px;
+}
+
+.courseCards .card-header{
+  color: #ffffff;
+  text-align: center;
+  background-color: #3F2A55;
+}
+
+.courseCards .card-body .card-title{
+  text-align: center;
+}
+
+.courseCards .card-body {
+  color: black;
+}
+
+.courseCards .card-body .fas{
+  color: #4E5B73;
+}
+
+.courseCards .card-footer .btn{
+  background-color: #3F2A55;
+  border-color: #3F2A55;
+}
+
+.courseCards .card-footer {
+  border-top-color: #ffffff;
+  background-color: #ffffff;
+}
+
+.courseCards .card-block {
+    display: contents;
+}
+
+
+
+/* Jumbotron on landing pages */
+.jumbotron {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-bottom: 1rem;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+.jumbotron .h1 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.jumbotron .p {
+  margin-left: 25px;
+  padding-right: 1rem;
+}
+
+.jumbotron .btn {
+  border-radius: 8px;
+}
+
+/* Bottom Jumbotron */
+
+.featuredCourse .jumbotron h4{
+  text-align: center;
+}
+
+/*Search Bar*/
+
+#searchHome .btn {
+  border-radius: 8px;
+}
+
+#searchHome .input .border {
+  border-radius: 8px;
+  border-width: thick;
 }

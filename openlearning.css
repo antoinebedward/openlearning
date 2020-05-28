@@ -54,6 +54,13 @@ img {
 border-radius: 5px 5px 0 0;
 }
 
+/* Business Lines Cards on Home Page */
+
+#homeBussinesLines .card-deck .card {
+  min-width: 17rem;
+  max-width: 22rem;
+}
+
 /* Course Cards on Landing Pages */
 
 .courseCards .card-deck {
@@ -61,7 +68,7 @@ border-radius: 5px 5px 0 0;
 }
 .courseCards .card {
   margin-bottom: 1em;
-  min-width: 18rem;
+  min-width: 17rem;
   max-width: 22rem;
   border-color: #4E5B73;
   border-width: 0.075rem;

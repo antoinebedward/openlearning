@@ -1,9 +1,9 @@
-<!DOCTYPE html>
+/<!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-<link rel="stylesheet" href="/Users/antoinedespres-bedward/Documents/GitHub/openlearning/openlearning.css">
+<link rel="stylesheet" href="/Users/antoinedespres-bedward/Documents/GitHub/CSPS_Open_Learning/openlearning.css">
     <meta charset="utf-8">
     <title></title>
     <style media="screen">
@@ -17,13 +17,12 @@
         <p class="lead mb-0 d-none d-md-block" style="text-align: left;">Welcome to the Canada School of Public Service Open Learning!</p>
         <p class="mt-0 d-none d-md-block" style="text-align: left;">Your home for barrier-free, online learning from the federal public service of Canada.</p>
     </div>
-    <!-- Search Box -->
-    <section id="searchHome">
+<!-- Search Box -->
+    <section id="searchHome" class="">
         <div class="container">
             <div class="row justify-content-center">
-                <form action="https://openlearning-staging.canadacentral.cloudapp.azure.com/search/index.php" id="coursesearch" method="get" class="form-inline mt-2 mb-5 justify-content-center">
+                <form action="/search/index.php" id="coursesearch" method="get" class="form-inline justify-content-center">
                     <fieldset class="coursesearchbox invisiblefieldset">
-                        <!-- <label for="coursesearchbox" id="yui_3_17_2_1_1589422323747_20" class="lead mb-2"></label> -->
                         <input id="coursesearchbox" name="q" type="text" placeholder="What do you want to learn?" size="75" value="" class="form-control mb-1 mb-sm-0 border-primary">
                         <input name="areaids" type="hidden" value="core_course-course">
                         <button class="btn btn-primary btn-rounded" type="submit">Search<i class="icon fa fa-search fa-fw ml-2"></i></button>
@@ -32,32 +31,79 @@
             </div>
         </div>
     </section>
-    <!--Content Type-->
+<!-- Topics -->
+    <section id="homeTopics" class="py-3">
+      <div class="container">
+        <h3 class="text-center pb-2">Browse by Topic</h3>
+        <div class="card-deck justify-content-center">
+              <div class="card my-1">
+                <a href="/search/index.php?q=tags+digital" class="card-block stretched-link text-decoration-none">
+                <div class="card-body">Digital</div>
+              </a>
+              </div>
+              <div class="card my-1">
+                <a href="/search/index.php?q=tags+finance" class="card-block stretched-link text-decoration-none">
+                <div class="card-body">Finance</div>
+              </a>
+              </div>
+              <div class="card my-1">
+                <a href="/search/index.php?q=tags+government" class="card-block stretched-link text-decoration-none">
+                <div class="card-body">Government</div>
+              </a>
+              </div>
+              <div class="card my-1">
+                <a href="/search/index.php?q=tags+human+resources" class="card-block stretched-link text-decoration-none">
+                <div class="card-body">Human Resources</div>
+              </a>
+              </div>
+              <div class="w-100 d-none d-md-block"></div>
+              <div class="card my-1">
+                <a href="/search/index.php?q=tags+indigenous" class="card-block stretched-link text-decoration-none">
+                <div class="card-body">Indigenous Learning</div>
+              </a>
+              </div>
+              <div class="card my-1">
+                <a href="/search/index.php?q=tags+leadership" class="card-block stretched-link text-decoration-none">
+                <div class="card-body">Leadership</div>
+              </a>
+              </div>
+              <div class="card my-1">
+                <a href="/search/index.php?q=tags+remote+work" class="card-block stretched-link text-decoration-none">
+                <div class="card-body">Remote Work</div>
+              </a>
+              </div>
+              <div class="card my-1">
+                <a href="/search/index.php?q=tags+security" class="card-block stretched-link text-decoration-none">
+                <div class="card-body">Security</div>
+              </a>
+              </div>
+        </div>
+      </div>
+    </section>
+<!--Content Type-->
     <section class="bg-light py-3">
         <div id="homeContenttype">
             <div class="container">
+              <h3 class="text-center pb-2">Browse by Content Type</h3>
                 <div class="row justify-content-md-center">
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="card mb-2">
-                            <a class="card-block stretched-link text-decoration-none" href="https://openlearning-staging.canadacentral.cloudapp.azure.com/search/index.php?q=course">
-                  <img class="card-img-top d-none d-md-block" src="https://github.com/antoinebedward/ilms_emails/blob/master/img/Course_and_Learning_Resources.jpeg?raw=true" alt="">
-                  <div class="card-body text-center bg-primary text-white"><strong>Courses and <br>Learning Resources</strong></div>
+                            <a class="card-block stretched-link text-decoration-none" href="/search/index.php?q=course">
+                  <div class="card-body text-center bg-primary text-white"><strong><i class="icon fa fa-laptop fa-fw mr-2"></i>Courses</strong></div>
                 </a>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="card mb-2">
-                            <a class="card-block stretched-link text-decoration-none" href="https://openlearning-staging.canadacentral.cloudapp.azure.com/search/index.php?q=video">
-                  <img class="card-img-top d-none d-md-block" src="https://github.com/antoinebedward/ilms_emails/blob/master/img/Videos.jpeg?raw=true" alt="">
-                  <div class="card-body text-center bg-primary text-white"><strong>Videos <br>(Previously Recorded Events)</strong></div>
+                            <a class="card-block stretched-link text-decoration-none" href="/search/index.php?q=video">
+                  <div class="card-body text-center bg-primary text-white"><strong><i class="icon fa fa-video-camera fa-fw mr-2"></i>Videos</strong></div>
                 </a>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="card mb-2">
-                            <a class="card-block stretched-link text-decoration-none" href="https://openlearning-staging.canadacentral.cloudapp.azure.com/search/index.php?q=podcast">
-                  <img class="card-img-top d-none d-md-block" src="https://github.com/antoinebedward/openlearning/blob/master/Home_Page/microphone.jpeg?raw=true" alt="">
-                  <div class="card-body text-center bg-primary text-white"><strong>Podcasts <br>(Previously Recorded Audio)</strong></div>
+                            <a class="card-block stretched-link text-decoration-none" href="/search/index.php?q=podcast">
+                  <div class="card-body text-center bg-primary text-white"><strong><i class="icon fa fa-microphone fa-fw mr-2"></i>Podcasts</strong></div>
                 </a>
                         </div>
                     </div>
@@ -67,26 +113,26 @@
     </section>
     <!--Business Lines-->
     <section class="py-3 my-2">
-        <h3 class="text-center">Browse Our Business Lines</h3>
+        <h3 class="text-center">Browse by Business Line</h3>
         <div id="homeBussinesLines">
             <div class="container-fluid">
                 <div class="card-deck justify-content-center">
                     <div class="card my-1">
-                        <a class="card-block stretched-link text-decoration-none" href="https://openlearning-staging.canadacentral.cloudapp.azure.com/course/index.php?categoryid=13">
+                        <a class="card-block stretched-link text-decoration-none" href="/course/index.php?categoryid=13">
                           <img class="card-img-top d-none d-md-block" src="https://github.com/antoinebedward/openlearning/blob/master/Home_Page/people.png?raw=true" alt="">
                             <div class="card-header text-center text-white"><strong>Respectful and Inclusive Workplace</strong></div>
                             <div class="card-body text-dark d-none d-md-block">Help create knowledge and awareness necessary for fostering an inclusive workplace.</div>
                         </a>
                     </div>
                     <div class="card my-1">
-                        <a class="card-block stretched-link text-decoration-none" href="https://openlearning-staging.canadacentral.cloudapp.azure.com/course/index.php?categoryid=10">
+                        <a class="card-block stretched-link text-decoration-none" href="/course/index.php?categoryid=10">
                           <img class="card-img-top d-none d-md-block" src="https://github.com/antoinebedward/openlearning/blob/master/Home_Page/parliament.png?raw=true" alt="">
                             <div class="card-header text-center text-white"><strong>GC and Public Sector Skills</strong></div>
                             <div class="card-body text-dark d-none d-md-block">Agile, responsive and comprehensive training and learning unique to the craft of government.</div>
                         </a>
                     </div>
                     <div class="card my-1">
-                        <a class="card-block stretched-link text-decoration-none" href="https://openlearning-staging.canadacentral.cloudapp.azure.com/course/index.php?categoryid=4">
+                        <a class="card-block stretched-link text-decoration-none" href="/course/index.php?categoryid=4">
                           <img class="card-img-top d-none d-md-block" src="https://github.com/antoinebedward/openlearning/blob/master/Home_Page/feather.png?raw=true" alt="">
                             <div class="card-header text-center text-white"><strong>Indigenous Learning</strong></div>
                             <div class="card-body text-dark d-none d-md-block">Incremental and co-developed curriculum for all, including targeted learning to develop cultural competencies and specialized learning to support Indigenous employees.</div>
@@ -94,14 +140,14 @@
                     </div>
                 <div class="w-100 d-none d-lg-block"></div>
                     <div class="card my-1">
-                        <a class="card-block stretched-link text-decoration-none" href="https://openlearning-staging.canadacentral.cloudapp.azure.com/course/index.php?categoryid=12">
+                        <a class="card-block stretched-link text-decoration-none" href="/course/index.php?categoryid=12">
                           <img class="card-img-top d-none d-md-block" src="https://github.com/antoinebedward/openlearning/blob/master/Home_Page/engrenage.png?raw=true" alt="">
                             <div class="card-header text-center text-white"><strong>Transferable Skills</strong></div>
                             <div class="card-body text-dark d-none d-md-block">Cross-sectoral training (academia, think tanks, and private sector) in key areas, enriching our learning curriculum while maintaining ongoing training and development of core skills.</div>
                         </a>
                     </div>
                     <div class="card my-1">
-                        <a class="card-block stretched-link text-decoration-none" href="https://openlearning-staging.canadacentral.cloudapp.azure.com/course/index.php?categoryid=11">
+                        <a class="card-block stretched-link text-decoration-none" href="/course/index.php?categoryid=11">
                           <img class="card-img-top d-none d-md-block" src="https://github.com/antoinebedward/openlearning/blob/master/Home_Page/computer.png?raw=true" alt="">
                             <div class="card-header text-center text-white"><strong>Digital Academy</strong></div>
                             <div class="card-body text-dark d-none d-md-block">Foundations in digital for all public servants with leadership and premium specialist streams to build organizational capacity.</div>
@@ -116,7 +162,7 @@
         <h3 class="text-center">Executive Corner</h3>
         <div class="container justify-content-center">
             <div class="card border mb-4 bg-light">
-                <a class="card-block stretched-link text-decoration-none" href="https://openlearning-staging.canadacentral.cloudapp.azure.com/course/index.php?categoryid=3">
+                <a class="card-block stretched-link text-decoration-none" href="/course/index.php?categoryid=3">
                     <div class="py-3 card-header card-header text-center bg-primary text-white text-lead"><strong>Executive Learning</strong></div>
                     <div class="card-body text-dark d-none d-md-block">Take advantage of the experience of your peers, experienced leaders and experts in leadership, innovation and decision-making to inspire you in your daily work.</div>
                 </a>
@@ -134,9 +180,8 @@
     <section id="searchHome">
         <div class="container">
             <div class="row justify-content-center">
-                <form action="https://learn-apprendre.ca/search/index.php" id="coursesearch" method="get" class="form-inline mt-2 mb-5 justify-content-center">
+                <form action="/search/index.php" id="coursesearch" method="get" class="form-inline mt-2 mb-5 justify-content-center">
                     <fieldset class="coursesearchbox invisiblefieldset">
-                        <!-- <label for="coursesearchbox" id="yui_3_17_2_1_1589422323747_20" class="lead mb-2"></label> -->
                         <input id="coursesearchbox" name="q" type="text" placeholder="Que voulez-vous apprendre?" size="75" value="" class="form-control mb-1 mb-sm-0 border-primary">
                         <input name="areaids" type="hidden" value="core_course-course">
                         <button class="btn btn-primary btn-rounded" type="submit">Chercher<i class="icon fa fa-search fa-fw ml-2"></i></button>
@@ -145,32 +190,79 @@
             </div>
         </div>
     </section>
+    <!-- Topics -->
+        <section id="homeTopics" class="py-3">
+          <div class="container">
+            <h3 class="text-center pb-2">Chercher par sujet</h3>
+            <div class="card-deck justify-content-center">
+                  <div class="card my-1">
+                    <a href="/search/index.php?q=tags+numérique" class="card-block stretched-link text-decoration-none">
+                    <div class="card-body">Numérique</div>
+                  </a>
+                  </div>
+                  <div class="card my-1">
+                    <a href="/search/index.php?q=tags+finance+fra" class="card-block stretched-link text-decoration-none">
+                    <div class="card-body">Finance</div>
+                  </a>
+                  </div>
+                  <div class="card my-1">
+                    <a href="/search/index.php?q=tags+gouvernment" class="card-block stretched-link text-decoration-none">
+                    <div class="card-body">Gouvernment</div>
+                  </a>
+                  </div>
+                  <div class="card my-1">
+                    <a href="/search/index.php?q=tags+ressources+humaines" class="card-block stretched-link text-decoration-none">
+                    <div class="card-body">Ressources humaines</div>
+                  </a>
+                  </div>
+                  <div class="w-100 d-none d-md-block"></div>
+                  <div class="card my-1">
+                    <a href="/search/index.php?q=tags+autochtones" class="card-block stretched-link text-decoration-none">
+                    <div class="card-body">Apprentissage sur les questions autochtones</div>
+                  </a>
+                  </div>
+                  <div class="card my-1">
+                    <a href="/search/index.php?q=tags+leadership+fra" class="card-block stretched-link text-decoration-none">
+                    <div class="card-body">Leadership</div>
+                  </a>
+                  </div>
+                  <div class="card my-1">
+                    <a href="/search/index.php?q=tags+travail+distance" class="card-block stretched-link text-decoration-none">
+                    <div class="card-body">Travail à distance</div>
+                  </a>
+                  </div>
+                  <div class="card my-1">
+                    <a href="/search/index.php?q=tags+securité" class="card-block stretched-link text-decoration-none">
+                    <div class="card-body">Sécurité</div>
+                  </a>
+                  </div>
+            </div>
+          </div>
+        </section>
     <!--Contet Type-->
     <section class="bg-light py-3">
         <div id="homeContenttype">
             <div class="container">
+              <h3 class="text-center pb-2">Chercher par type de contenu</h3>
                 <div class="row justify-content-md-center">
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="card mb-2">
-                            <a class="card-block stretched-link text-decoration-none" href="https://learn-apprendre.ca/course/index.php?categoryid=30">
-                  <img class="card-img-top d-none d-md-block" src="https://github.com/antoinebedward/ilms_emails/blob/master/img/Course_and_Learning_Resources.jpeg?raw=true" alt="">
-                  <div class="card-body text-center bg-primary text-white"><strong>Cours et <br>ressources d'apprentissage</strong></div>
+                            <a class="card-block stretched-link text-decoration-none" href="/search/index.php?q=tags+cours+fra">
+                  <div class="card-body text-center bg-primary text-white"><strong><i class="icon fa fa-laptop fa-fw mr-2"></i>Cours</strong></div>
                 </a>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="card mb-2">
-                            <a class="card-block stretched-link text-decoration-none" href="https://learn-apprendre.ca/course/index.php?categoryid=15">
-                  <img class="card-img-top d-none d-md-block" src="https://github.com/antoinebedward/ilms_emails/blob/master/img/Videos.jpeg?raw=true" alt="">
-                  <div class="card-body text-center bg-primary text-white"><strong>Vidéos <br>(Événements enregistrés)</strong></div>
+                            <a class="card-block stretched-link text-decoration-none" href="/search/index.php?q=tags+vidéo">
+                  <div class="card-body text-center bg-primary text-white"><strong><i class="icon fa fa-video-camera fa-fw mr-2"></i>Vidéos</strong></div>
                 </a>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="card mb-2">
-                            <a class="card-block stretched-link text-decoration-none" href="https://learn-apprendre.ca/course/index.php?categoryid=26">
-                  <img class="card-img-top d-none d-md-block" src="https://github.com/antoinebedward/openlearning/blob/master/Home_Page/microphone.jpeg?raw=true" alt="">
-                  <div class="card-body text-center bg-primary text-white"><strong>Balado <br>(Audio enregistrés)</strong></div>
+                            <a class="card-block stretched-link text-decoration-none" href="/search/index.php?q=tags+balado">
+                  <div class="card-body text-center bg-primary text-white"><strong><i class="icon fa fa-microphone fa-fw mr-2"></i>Balados</strong></div>
                 </a>
                         </div>
                     </div>
@@ -180,26 +272,26 @@
     </section>
     <!--Business Lines-->
     <section class="py-3 my-2">
-        <h3 class="text-center">Parcourir nos secteur d'activités</h3>
+        <h3 class="text-center">Chercher par  secteur d'activité</h3>
         <div id="homeBussinesLines">
             <div class="container-fluid">
                 <div class="card-deck justify-content-center">
                     <div class="card my-1">
-                        <a class="card-block stretched-link text-decoration-none" href="https://learn-apprendre.ca/course/index.php?categoryid=6">
+                        <a class="card-block stretched-link text-decoration-none" href="/course/index.php?categoryid=16">
                           <img class="card-img-top d-none d-md-block" src="https://github.com/antoinebedward/openlearning/blob/master/Home_Page/people.png?raw=true" alt="">
                             <div class="card-header text-center text-white"><strong>Milieu de travail <br>respectueux et inclusif</strong></div>
                             <div class="card-body text-dark d-none d-md-block">Formation visant à favoriser un milieu de travail inclusif au moyen de la sensibilisation et de la transmission de connaissances.</div>
                         </a>
                     </div>
                     <div class="card my-1">
-                        <a class="card-block stretched-link text-decoration-none" href="https://learn-apprendre.ca/course/index.php?categoryid=4">
+                        <a class="card-block stretched-link text-decoration-none" href="/course/index.php?categoryid=17">
                           <img class="card-img-top d-none d-md-block" src="https://github.com/antoinebedward/openlearning/blob/master/Home_Page/parliament.png?raw=true" alt="">
                             <div class="card-header text-center text-white"><strong>Compétences du secteur <br>public et du GC</strong></div>
                             <div class="card-body text-dark d-none d-md-block">Formation souple et complète répondant aux besoins, qui comprend des activités d'apprentissage propres au milieu gouvernemental.</div>
                         </a>
                     </div>
                     <div class="card my-1">
-                        <a class="card-block stretched-link text-decoration-none" href="https://learn-apprendre.ca/course/index.php?categoryid=7">
+                        <a class="card-block stretched-link text-decoration-none" href="/course/index.php?categoryid=21">
                           <img class="card-img-top d-none d-md-block" src="https://github.com/antoinebedward/openlearning/blob/master/Home_Page/feather.png?raw=true" alt="">
                             <div class="card-header text-center text-white"><strong>Apprentissage sur les questions autochtones</strong></div>
                             <div class="card-body text-dark d-none d-md-block">Programme progressif pour tous, élaboré conjointement, qui comprend aussi des activités d'apprentissage ciblées visant l'acquisition de compétences culturelles et de connaissances spécialisées pour appuyer les employés autochtones.</div>
@@ -207,8 +299,8 @@
                     </div>
                     <div class="w-100 d-none d-lg-block"></div>
                     <div class="card my-1">
-                      <img class="card-img-top d-none d-md-block" src="https://github.com/antoinebedward/openlearning/blob/master/Home_Page/engrenage.png?raw=true" alt="">
-                        <a class="card-block stretched-link text-decoration-none" href="https://learn-apprendre.ca/course/index.php?categoryid=3">
+                      <a class="card-block stretched-link text-decoration-none" href="/course/index.php?categoryid=18">
+                        <img class="card-img-top d-none d-md-block" src="https://github.com/antoinebedward/openlearning/blob/master/Home_Page/engrenage.png?raw=true" alt="">
                             <div class="card-header text-center text-white"><strong>Compétences transférables</strong></div>
                             <div class="card-body text-dark d-none d-md-block">Formation intersectorielle (milieu universitaire, groupes de réflexion et secteur privé) dans des domaines clés qui enrichit notre programme d'apprentissage, en soutien à la formation continue et à l'acquisition des compétences
                                 essentielles.
@@ -216,7 +308,7 @@
                         </a>
                     </div>
                     <div class="card my-1">
-                        <a class="card-block stretched-link text-decoration-none" href="https://learn-apprendre.ca/course/index.php?categoryid=8">
+                        <a class="card-block stretched-link text-decoration-none" href="/course/index.php?categoryid=19">
                           <img class="card-img-top d-none d-md-block" src="https://github.com/antoinebedward/openlearning/blob/master/Home_Page/computer.png?raw=true" alt="">
                             <div class="card-header text-center text-white"><strong>Académie du numérique</strong></div>
                             <div class="card-body text-dark d-none d-md-block">Formation sur les bases du numérique pour tous les fonctionnaires, qui comprend des volets spécialisés « leadership » et « excellence », afin de renforcer les capacités organisationnelles en la matière.</div>
@@ -231,7 +323,7 @@
         <h3 class="text-center">Le coin des cadres</h3>
         <div class="container justify-content-center">
             <div class="card border mb-4 bg-light">
-                <a class="card-block stretched-link text-decoration-none" href="https://learn-apprendre.ca/course/index.php?categoryid=17">
+                <a class="card-block stretched-link text-decoration-none" href="/course/index.php?categoryid=20">
                     <div class="py-3 card-header card-header text-center bg-primary text-white text-lead"><strong>Apprentissage pour les cadres</strong></div>
                     <div class="card-body text-dark d-none d-md-block">Profitez de l'expérience de vos pairs, de dirigeants chevronnés et d'experts en matière de leadership, d'innovation et de prise de décisions pour vous inspirer dans votre quotidien.</div>
                 </a>

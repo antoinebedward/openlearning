@@ -61,6 +61,21 @@ border-radius: 5px 5px 0 0;
   max-width: 22rem;
 }
 
+/* Topic Cards on Home Page */
+
+#homeTopics .card-deck .card {
+  width: 18rem;
+  background-color: #4E5B73;
+  text-align: center;
+}
+
+#homeTopics .card-deck .card .card-body{
+  color: #FFFFFF;
+  font-weight: bold;
+
+}
+
+
 /* Course Cards on Landing Pages */
 
 .courseCards .card-deck {

@@ -7,11 +7,14 @@ Catalogue||Catalogue|en
 -Video|/search/index.php?q=tags+video
 
 Topics||Topics|en
+-Digital|/search/index.php?q=tags+digital
+-Finance|/search/index.php?q=tags+finance
+-Government|/search/index.php?q=tags+government
 -Human Resources|/search/index.php?q=tags+human+resources
+-Indigenous Learning|/search/index.php?q=tags+indigenous
 -Leadership|/search/index.php?q=tags+leadership
 -Remote Work|/search/index.php?q=tags+remote+work
--Supervisor|/search/index.php?q=tags+supervisor
--How Government Works|/search/index.php?q=tags+government
+-Security|/search/index.php?q=tags+security
 
 Organizations||Organizations|en
 -Digital Academy|/course/index.php?categoryid=11
@@ -23,7 +26,6 @@ Organizations||Organizations|en
 -###|
 -Other|/course/index.php?categoryid=14
 
-
 Catalogue||Catalogue|fr
 -Blogue|/search/index.php?q=tags+blogue
 -Cours|/search/index.php?q=tags+cours
@@ -33,10 +35,13 @@ Catalogue||Catalogue|fr
 -Vidéo|/search/index.php?q=tags+vidéo
 
 Sujets||Sujets|fr
--Comment fonctionne le gouvernement|/search/index.php?q=tags+government
+-Apprentissage autochtone|/search/index.php?q=tags+autochtone
+-Finance|/search/index.php?q=tags+finance
+-Gouvernement|/search/index.php?q=tags+gouvernement
 -Leadership|/search/index.php?q=tags+leadership
--Ressources Humaines|/search/index.php?q=tags+resources+humaines
--Superviseur|/search/index.php?q=tags+superviseur
+-Numérique|/search/index.php?q=tags+numérique
+-Ressources humaines|/search/index.php?q=tags+ressources+humaines
+-Sécurité |/search/index.php?q=tags+sécurité
 -Travail à distance|/search/index.php?q=tags+travail+distance
 
 Organisations||Organisations|fr

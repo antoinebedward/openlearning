@@ -3,7 +3,7 @@
 <span itemprop="name" content="Welcome to the New Manager Development Program!"></span>
 <span itemprop="description" content=""></span>
 <span itemprop="duration" content="180"></span>
-<span itemprop="thumbnail" content="https://video.csps-efpc.gc.ca/p/101/sp/10100/thumbnail/entry_id/[insert]/version/100000/acv/122"></span>
+<span itemprop="thumbnail" content="https://video.csps-efpc.gc.ca/p/101/sp/10100/thumbnail/entry_id/0_nzxmq9bm/version/100000/acv/122"></span>
 <span itemprop="width" content="560"></span>
 <span itemprop="height" content="395"></span>
 </div>
@@ -14,6 +14,6 @@ kWidget.embed({
   "uiconf_id": 23448244,
   "flashvars": {},
   "cache_st": 1417140251,
-  "entry_id": "[insert]"
+  "entry_id": "0_nzxmq9bm"
 });
 </script>

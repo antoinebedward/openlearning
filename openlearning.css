@@ -125,7 +125,9 @@ border-radius: 5px 5px 0 0;
     display: contents;
 }
 
-
+.courseCards .card img {
+  height: 190px;
+}
 
 /* Jumbotron on landing pages */
 .jumbotron {
@@ -181,4 +183,14 @@ border-radius: 5px 5px 0 0;
   text-align: center;
   background-color: #E0FFFF;
   padding: 4em 10em;
+}
+
+/* Hide back to top since it wasn't working */
+
+#back-to-top {
+  visibility: hidden;
+}
+
+#page-footer .tool_dataprivacy {
+  visibility: hidden;
 }

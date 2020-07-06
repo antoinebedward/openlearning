@@ -7,12 +7,14 @@ Catalogue||Catalogue|en
 -Video|/search/index.php?q=tags+video
 
 Topics||Topics|en
+-COVID-19|/search/index.php?q=tags+covid+all
 -Digital|/search/index.php?q=tags+digital
 -Finance|/search/index.php?q=tags+finance
 -Government|/search/index.php?q=tags+government
 -Human Resources|/search/index.php?q=tags+human+resources
 -Indigenous Learning|/search/index.php?q=tags+indigenous
 -Leadership|/search/index.php?q=tags+leadership
+-Mental Health|/search/index.php?q=tags+health
 -Remote Work|/search/index.php?q=tags+remote+work
 -Security|/search/index.php?q=tags+security
 
@@ -36,11 +38,13 @@ Catalogue||Catalogue|fr
 
 Sujets||Sujets|fr
 -Apprentissage autochtone|/search/index.php?q=tags+autochtone
+-COVID-19|/search/index.php?q=tags+covid+tout
 -Finance|/search/index.php?q=tags+finance
 -Gouvernement|/search/index.php?q=tags+gouvernement
 -Leadership|/search/index.php?q=tags+leadership
 -Numérique|/search/index.php?q=tags+numérique
 -Ressources humaines|/search/index.php?q=tags+ressources+humaines
+-Santé Mentale|/search/index.php?q=tags+santé
 -Sécurité |/search/index.php?q=tags+sécurité
 -Travail à distance|/search/index.php?q=tags+travail+distance
 

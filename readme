@@ -1,1 +1,14 @@
 This folder contains the landing pages and home page for the CSPS open learning initiative. Each file requires the the portion {mlang en} to the last {mlang} be copied into each source code editor.
+
+Tests:
+
+https://devmoodle.nglxp.ca/admin/search.php
+
+Hide navdrawer
+
+div.d-inline-block.mr-3 {
+  visibility: hidden;
+}
+#nav-drawer {
+  visibility: hidden;
+}

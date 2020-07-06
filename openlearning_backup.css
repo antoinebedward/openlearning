@@ -194,25 +194,3 @@ border-radius: 5px 5px 0 0;
 #page-footer .tool_dataprivacy {
   visibility: hidden;
 }
-
-/* Improve Navbar */
-
-nav.bg-dark {
-background-color: #3F2A56!important;
-}
-
-footer.bg-dark {
-background-color: #4E5B73!important;
-}
-
-a.navbar-brand.has-logo {
-max-width: 40px;
-}
-
-.navbar {
-max-height: 125px!important;
-}
-
-.site-name {
-  visibility: hidden;
-}

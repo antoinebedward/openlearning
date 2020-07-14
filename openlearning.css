@@ -54,6 +54,28 @@ img {
 border-radius: 5px 5px 0 0;
 }
 
+/* Business Lines Cards on Home Page */
+
+#homeBussinesLines .card-deck .card {
+  min-width: 17rem;
+  max-width: 22rem;
+}
+
+/* Topic Cards on Home Page */
+
+#homeTopics .card-deck .card {
+  width: 18rem;
+  background-color: #4E5B73;
+  text-align: center;
+}
+
+#homeTopics .card-deck .card .card-body{
+  color: #FFFFFF;
+  font-weight: bold;
+
+}
+
+
 /* Course Cards on Landing Pages */
 
 .courseCards .card-deck {
@@ -61,7 +83,7 @@ border-radius: 5px 5px 0 0;
 }
 .courseCards .card {
   margin-bottom: 1em;
-  min-width: 18rem;
+  min-width: 17rem;
   max-width: 22rem;
   border-color: #4E5B73;
   border-width: 0.075rem;
@@ -103,7 +125,9 @@ border-radius: 5px 5px 0 0;
     display: contents;
 }
 
-
+.courseCards .card img {
+  height: 190px;
+}
 
 /* Jumbotron on landing pages */
 .jumbotron {
@@ -142,4 +166,57 @@ border-radius: 5px 5px 0 0;
 #searchHome .input .border {
   border-radius: 8px;
   border-width: thick;
+}
+
+/* About Us */
+
+#followUs {
+  text-align: center;
+  background-color: #4E5B73;
+  height: auto;
+  padding-bottom: -4em;
+  position: absolute;
+  /* margin-bottom: -2em; */
+}
+
+#ourWorkdescription {
+  text-align: center;
+  background-color: #E0FFFF;
+  padding: 4em 10em;
+}
+
+/* Hide back to top since it wasn't working */
+
+#back-to-top {
+  visibility: hidden;
+}
+
+#page-footer .tool_dataprivacy {
+  visibility: hidden;
+}
+
+/* Improve Site-wide Navbar */
+
+nav.bg-dark {
+background-color: #3F2A56!important;
+}
+
+footer.bg-dark {
+background-color: #4E5B73!important;
+}
+
+a.navbar-brand.has-logo {
+max-width: 40px;
+}
+
+.navbar {
+max-height: 125px!important;
+}
+
+.site-name {
+  visibility: hidden;
+}
+
+.nav-item .usermenu {
+  visibility: hidden;
 }

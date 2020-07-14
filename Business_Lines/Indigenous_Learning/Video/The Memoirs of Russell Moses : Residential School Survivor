@@ -1,0 +1,56 @@
+<script src="https://video.csps-efpc.gc.ca/p/101/sp/10100/embedIframeJs/uiconf_id/23448244/partner_id/101"></script>
+<div id="kaltura_player_1417140251" style="width: 560px; height: 395px;" itemprop="video" itemscope="" itemtype="http://schema.org/VideoObject">
+    <span itemprop="name" content="Welcome to the New Manager Development Program!"></span>
+    <span itemprop="description" content=""></span>
+    <span itemprop="duration" content="180"></span>
+    <span itemprop="thumbnail" content="https://video.csps-efpc.gc.ca/p/101/sp/10100/thumbnail/entry_id/0_uopy6b63/version/100000/acv/122"></span>
+    <span itemprop="width" content="560"></span>
+    <span itemprop="height" content="395"></span>
+</div>
+<script>
+    kWidget.embed({
+        "targetId": "kaltura_player_1417140251",
+        "wid": "_101",
+        "uiconf_id": 23448244,
+        "flashvars": {},
+        "cache_st": 1417140251,
+        "entry_id": "0_uopy6b63"
+    });
+</script>
+<div class="accordion mt-2" id="accordionExample">
+    <div class="card">
+        <div class="card-header" id="headingOne">
+            <h2 class="mb-0">
+                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+      Description
+    </button>
+            </h2>
+        </div>
+
+        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+            <div class="card-body">
+                <p>With excerpts from his father Russ' memoirs, John Moses tells the story of a residential school survivor.</p>
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-header" id="headingTwo">
+            <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+      Transcription
+    </button>
+            </h2>
+        </div>
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+            <div class="card-body">
+            <p>The years that an Indian child spends in an Indian residential school has a very great deal to do with his or her future outlook on life. In my own case, it showed me that Indians are “different,” simply because you made us different.</p>
+<p>My father wrote his memoir in 1965 upon leaving the Canadian military that year. It describes his childhood experiences at the Mohawk Institute, also called the “Mush Hole,” which he attended from 1942 until 1947. He was there for a five-year period spanning the time he was roughly eight until 13 or 14. His sister Thelma was a year younger. Despite the fact that it sat on 350 acres of prime Southern Ontario farmland with varieties of crops, livestock and orchards under cultivation, the children themselves didn’t derive any benefit from their labours and were compelled on occasion to beg on the streets of Brantford to help sustain themselves.</p>
+<p>Children under Grade 5 level worked in the market garden, in which every type of vegetable was grown. The only vegetables which were stored for our use were potatoes, beans and turnips of the animal fodder variety. The work was supervised by white people who were employed by the Institute, and beatings were administered at the slightest pretext. We were not treated as human beings. We were the Indian who had to become shining examples of Anglican Christianity.</p>
+<p>When my great-grandfather Nelson Moses attended the Mohawk Institute in the 1880s, it was run as a religious training facility where likely young men and women from the Six Nations community were sent to be trained as Indigenous teachers and missionaries to be sent to Indigenous communities out West. When Russ’s father (my grandfather, Ted Moses) was there in the 1910s, it was basically being run as a military-themed boarding school in the era of militarization at the time of the Great War. It deteriorated throughout the decades of the 1920s and 30s and at the time of the Great Depression. Unfortunately, by the time my father and his siblings attended in the 1940s at the height of the Second World War, any pretense towards providing training or education for the children had been abandoned. They were there to provide the forced labour necessary to keep the large farm operation going as a contribution to the civilian food production effort on the Canadian home front during wartime.</p>
+<p>Both girls and boys would attend school for half days and work the other half. This was Monday to Friday, inclusive. No school on Saturday, but generally we worked. The senior boys worked on farm, and I mean worked. We were underfed, ill clad, and out in all types of weather.</p>
+<p>He refused to be defined by his residential school experience, aside from his upbringing, which he didn’t dwell on. He never hid it from us, but he certainly didn’t dwell on it. He had a very active life, including his time in the Royal Canadian Navy, including Korean War service, his time in the Air Force and then working on a number of different and very interesting projects throughout his public service career. This isn’t Russ Moses’ story. This is Canada’s story. That is especially relevant right now. We’re in 2017. There’s all the attention being given to this notion of Canada 150 and how we incorporate Indigenous views, perspectives and experiences. Well, certainly, as far as the residential schools experience is concerned, his memoir remains significant and continues to speak to us today.</p>
+<p>I must tell of things as they were, and really this is not my story, but yours.</p>
+            </div>
+        </div>
+    </div>
+</div><br>

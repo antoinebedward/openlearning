@@ -12,3 +12,5 @@ div.d-inline-block.mr-3 {
 #nav-drawer {
   visibility: hidden;
 }
+
+<p><a href="https://learn-apprendre.ca/login/index.php">Log In</a></p>

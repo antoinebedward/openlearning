@@ -195,7 +195,7 @@ border-radius: 5px 5px 0 0;
   visibility: hidden;
 }
 
-/* Improve Navbar */
+/* Improve Site-wide Navbar */
 
 nav.bg-dark {
 background-color: #3F2A56!important;
@@ -214,5 +214,9 @@ max-height: 125px!important;
 }
 
 .site-name {
+  visibility: hidden;
+}
+
+.nav-item .usermenu {
   visibility: hidden;
 }
